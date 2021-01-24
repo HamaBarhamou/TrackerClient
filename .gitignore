@@ -54,7 +54,7 @@ local.properties
 /android/
 
 #ios
-ios
+/ios
 
 # Node
 node_modules
