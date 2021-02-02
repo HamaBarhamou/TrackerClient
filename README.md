@@ -11,7 +11,7 @@ Entrez ici les instructions pour bien débuter avec votre projet...
 
 Ce qu'il est requis pour commencer avec votre projet...
 
-- Programme 1
+- un emulateur android studio, xcode , ou un protable android
 - Programme 2
 - etc...
 
@@ -21,14 +21,17 @@ Les étapes pour installer votre programme....
 
 Dites ce qu'il faut faire...
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
+Acceder au repertoire du projet et ensuite dans la ligne de commande taper cette commande
+
+'npm imstall'
 
 
 Ensuite vous pouvez montrer ce que vous obtenez au final...
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+react-native start
+react-native run-android
 
 ## Fabriqué avec
 
