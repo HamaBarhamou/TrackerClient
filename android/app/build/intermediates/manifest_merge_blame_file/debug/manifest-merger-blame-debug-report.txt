@@ -38,123 +38,154 @@
 20    <uses-permission android:name="android.permission.WAKE_LOCK" />
 20-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:12:5-68
 20-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:12:22-65
-21    <uses-permission android:name="android.permission.GET_TASKS" />
+21    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- Required to access Google Play Licensing -->
 21-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:13:5-68
 21-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:13:22-65
-22
-23    <application
-23-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:11:5-30:19
-24        android:name="com.trakerclient.MainApplication"
-24-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:12:7-38
-25        android:allowBackup="false"
-25-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:16:7-34
-26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.1.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
-27        android:debuggable="true"
-28        android:icon="@mipmap/ic_launcher"
-28-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:14:7-41
-29        android:label="@string/app_name"
-29-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:13:7-39
-30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:15:7-52
-31        android:theme="@style/AppTheme"
-31-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:17:7-38
-32        android:usesCleartextTraffic="true" >
-32-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/debug/AndroidManifest.xml:8:18-53
-33        <activity
-33-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:18:7-28:18
-34            android:name="com.trakerclient.MainActivity"
-34-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:19:9-37
-35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-35-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:21:9-86
-36            android:label="@string/app_name"
-36-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:20:9-41
-37            android:launchMode="singleTask"
-37-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:22:9-40
-38            android:windowSoftInputMode="adjustResize" >
-38-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:23:9-51
-39            <intent-filter>
-39-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:24:9-27:25
-40                <action android:name="android.intent.action.MAIN" />
-40-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:25:13-65
-40-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:25:21-62
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:26:13-73
-42-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:26:23-70
-43            </intent-filter>
-44        </activity>
-45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-45-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:29:7-84
-45-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:29:17-81
-46
-47        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
-47-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:16:9-92
-47-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:16:19-89
+22    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+22-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+22-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+23    <!--
+24         Required to poll the state of the network connection
+25        and respond to changes
+26    -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
+27-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+27-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+28-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-78
+29
+30    <application
+30-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:11:5-30:19
+31        android:name="com.trakerclient.MainApplication"
+31-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:12:7-38
+32        android:allowBackup="false"
+32-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:16:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:14:7-41
+36        android:label="@string/app_name"
+36-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:13:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:15:7-52
+38        android:theme="@style/AppTheme"
+38-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:17:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/debug/AndroidManifest.xml:8:18-53
+40        <activity
+40-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:18:7-28:18
+41            android:name="com.trakerclient.MainActivity"
+41-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:19:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:21:9-86
+43            android:label="@string/app_name"
+43-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:20:9-41
+44            android:launchMode="singleTask"
+44-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:22:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:23:9-51
+46            <intent-filter>
+46-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:24:9-27:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:25:13-65
+47-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:25:21-62
 48
-49        <service
-49-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:18:9-21:72
-50            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
-50-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:19:13-80
-51            android:exported="true"
-51-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:20:13-36
-52            android:permission="android.permission.BIND_JOB_SERVICE" />
-52-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:21:13-69
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:26:13-73
+49-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:26:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:29:7-84
+52-->/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:29:17-81
 53
-54        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
-54-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:23:9-28:20
-54-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:23:19-83
-55            <intent-filter>
-55-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:24:13-27:29
-56                <action android:name="android.intent.action.BOOT_COMPLETED" />
-56-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:25:17-79
-56-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:25:25-76
-57                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-57-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:17-84
-57-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:25-81
-58            </intent-filter>
-59        </receiver>
+54        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+54-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:16:9-92
+54-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:16:19-89
+55
+56        <service
+56-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:18:9-21:72
+57            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+57-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:19:13-80
+58            android:exported="true"
+58-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:20:13-36
+59            android:permission="android.permission.BIND_JOB_SERVICE" />
+59-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:21:13-69
 60
-61        <service
-61-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:39
-62            android:name="com.burnweb.rnsendintent.RNSendIntentModule"
-62-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-71
-63            android:exported="true" />
-63-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-36
-64
-65        <provider
-65-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-24:20
-66            android:name="com.burnweb.rnsendintent.FileProvider"
-66-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-65
-67            android:authorities="com.trakerclient.fileprovider"
-67-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-64
-68            android:exported="false"
-68-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
-69            android:grantUriPermissions="true" >
-69-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-47
-70            <meta-data
-70-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:54
-71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-67
-72                android:resource="@xml/file_paths" />
-72-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-51
-73        </provider>
-74
-75        <activity
-75-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-76-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-77            android:exported="false"
-77-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-78-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-79
-80        <meta-data
-80-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-81            android:name="com.google.android.gms.version"
-81-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-82            android:value="@integer/google_play_services_version" />
-82-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-83    </application>
-84
-85</manifest>
+61        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+61-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:23:9-28:20
+61-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:23:19-83
+62            <intent-filter>
+62-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:24:13-27:29
+63                <action android:name="android.intent.action.BOOT_COMPLETED" />
+63-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:25:17-79
+63-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:25:25-76
+64                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+64-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:17-84
+64-->[tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:25-81
+65            </intent-filter>
+66        </receiver>
+67
+68        <provider
+68-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+69            android:name="com.RNFetchBlob.Utils.FileProvider"
+69-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+70            android:authorities="com.trakerclient.provider"
+70-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+71            android:exported="false"
+71-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+72            android:grantUriPermissions="true" >
+72-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+73            <meta-data
+73-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+75                android:resource="@xml/provider_paths" />
+75-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+76        </provider>
+77
+78        <service
+78-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:39
+79            android:name="com.burnweb.rnsendintent.RNSendIntentModule"
+79-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-71
+80            android:exported="true" />
+80-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-36
+81
+82        <provider
+82-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-24:20
+83            android:name="com.burnweb.rnsendintent.FileProvider"
+83-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-65
+84            android:authorities="com.trakerclient.fileprovider"
+84-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-64
+85            android:exported="false"
+85-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+86            android:grantUriPermissions="true" >
+86-->[:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-47
+87            <meta-data
+87-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+89                android:resource="@xml/file_paths" />
+89-->[:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+90        </provider>
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/54a306ad49658bf2c1b641345c9c3941/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+100    </application>
+101
+102</manifest>

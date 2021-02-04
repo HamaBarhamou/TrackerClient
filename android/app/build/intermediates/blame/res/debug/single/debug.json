@@ -1140,6 +1140,10 @@
         "source": "/home/spyderniger/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/res/drawable/mtrl_tabs_default_indicator.xml"
     },
     {
+        "merged": "/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/packaged_res/debug/xml/provider_paths.xml"
+    },
+    {
         "merged": "/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/spyderniger/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },

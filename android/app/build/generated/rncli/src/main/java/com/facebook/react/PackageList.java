@@ -37,6 +37,8 @@ import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-send-intent
 import com.burnweb.rnsendintent.RNSendIntentPackage;
+// rn-fetch-blob
+import com.RNFetchBlob.RNFetchBlobPackage;
 
 public class PackageList {
   private Application application;
@@ -94,7 +96,8 @@ public class PackageList {
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
-      new RNSendIntentPackage()
+      new RNSendIntentPackage(),
+      new RNFetchBlobPackage()
     ));
   }
 }

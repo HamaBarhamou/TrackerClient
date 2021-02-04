@@ -4,6 +4,8 @@ import Geolocation from 'react-native-geolocation-service';
 import SmsAndroid from 'react-native-get-sms-android';
 import {request,requestMultiple, PERMISSIONS} from 'react-native-permissions';
 import Map from './Map'
+import { connect } from "react-redux";
+
 
 
 
@@ -15,6 +17,7 @@ class Gps extends Component {
         }
     }
     
+
     envoieSMS(phone,lat,log){
 
         request(PERMISSIONS.ANDROID.SEND_SMS).then((result) => {
@@ -55,7 +58,7 @@ class Gps extends Component {
 } 
   render() {
    
-    //console.log(global.SampleVar)
+    
 
     if(!this.state.gps.lat!=null && this.state.gps.lng!=null){
         
@@ -69,10 +72,12 @@ class Gps extends Component {
                 latitude: {this.state.gps.lat} {'\n'}
                 longitude: {this.state.gps.lng }  {"\n"}
                 sms envoyer au :{global.numerosTelephone}
+                {console.log(this.props.parametre)}
             </Text> 
             <Button title="parametre" 
                     onPress={() => {this.props.navigation.navigate('Configuration')}}
             />
+
         </View>  
     );
   }
@@ -86,4 +91,10 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Gps;
+
+const mapStateToProps = state => ({
+	parametre: state.parametre,
+});
+
+//export default Gps
+export default connect(mapStateToProps)(Gps)

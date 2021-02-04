@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 function Navigation() {
   return (
-    <NavigationContainer>
+    <NavigationContainer >
       <Stack.Navigator>
         <Stack.Screen name="Localisation" component={Gps} />
         <Stack.Screen name="Configuration" component={Configuration} />
@@ -17,5 +17,7 @@ function Navigation() {
     </NavigationContainer>
   );
 }
+
+
 
 export default Navigation;

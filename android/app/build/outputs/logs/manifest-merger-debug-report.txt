@@ -22,6 +22,7 @@ MERGED from [:react-native-permissions] /home/spyderniger/DepotLocaleGithub/Trac
 MERGED from [:react-native-reanimated] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
 MERGED from [com.facebook.react:react-native:0.63.4] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/65445d6e66ddfb4160265580c8c9fc20/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -101,6 +102,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
 	android:name
 		ADDED from /home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -131,6 +134,8 @@ MERGED from [:react-native-background-fetch] /home/spyderniger/DepotLocaleGithub
 MERGED from [:react-native-background-fetch] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
 MERGED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:15:5-29:19
 MERGED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:15:5-29:19
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
 MERGED from [com.facebook.react:react-native:0.63.4] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/65445d6e66ddfb4160265580c8c9fc20/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.4] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/65445d6e66ddfb4160265580c8c9fc20/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-25:19
@@ -245,6 +250,8 @@ MERGED from [:react-native-safe-area-context] /home/spyderniger/DepotLocaleGithu
 MERGED from [:react-native-safe-area-context] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/65445d6e66ddfb4160265580c8c9fc20/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.4] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/65445d6e66ddfb4160265580c8c9fc20/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -369,6 +376,8 @@ ADDED from /home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/deb
 		ADDED from /home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/src/debug/AndroidManifest.xml:5:22-75
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
@@ -377,6 +386,8 @@ ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transf
 		ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:12:5-68
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
 	android:name
 		ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.GET_TASKS
@@ -409,6 +420,34 @@ action#android.intent.action.MY_PACKAGE_REPLACED
 ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:17-84
 	android:name
 		ADDED from [tsbackgroundfetch-0.4.0.aar] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/f0b736cad530d59e3d6a77ddfc590fb2/jetified-tsbackgroundfetch-0.4.0/AndroidManifest.xml:26:25-81
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-78
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+	android:resource
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+	android:name
+		ADDED from [:rn-fetch-blob] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
 service#com.burnweb.rnsendintent.RNSendIntentModule
 ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:39
 	android:exported
@@ -425,12 +464,6 @@ ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/Track
 		ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-65
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-23:54
-	android:resource
-		ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-51
-	android:name
-		ADDED from [:react-native-send-intent] /home/spyderniger/DepotLocaleGithub/TrackerClient/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-67
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/spyderniger/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported
