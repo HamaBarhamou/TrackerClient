@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Text, View, TouchableOpacity,StyleSheet } from "react-native";
 import PhoneInput from "react-native-phone-input";
+import Context from '../Context/Context'
 
 
 export default class PhoneNumber extends Component {
+  static contextType=Context
   constructor() {
     super();
-    global.numerosTelephone = null;
+    //global.numerosTelephone = null;
     
     this.state = {
       valid: "",
@@ -24,36 +26,21 @@ export default class PhoneNumber extends Component {
       type: this.phone.getNumberType(),
       value: this.phone.getValue()
     });
+
+    if(this.state.valid){
+      this.context.changePhoneNumber(this.state.value);
+      console.log("numeros remplacer par: "+this.context.phoneNumber)
+    }
+    
   }
 
   renderInfo() {
-    /*
-    if (this.state.value) {
-      return (
-        <View style={styles.info}>
-          <Text>
-            Is Valid:{" "}
-            <Text style={{ fontWeight: "bold" }}>
-              {this.state.valid.toString()}
-            </Text>
-          </Text>
-          <Text>
-            Type: <Text style={{ fontWeight: "bold" }}>{this.state.type}</Text>
-          </Text>
-          <Text>
-            Value:{" "}
-            <Text style={{ fontWeight: "bold" }}>{this.state.value}</Text>
-          </Text>
-        </View>
-      );
-    }
-  */
   
   
     if(this.state.valid){
-        global.numerosTelephone=this.state.value
+        //global.numerosTelephone=this.state.value
         return (
-          <Text> numeros saisi : {global.numerosTelephone}</Text>
+          <Text> numeros saisi : {/*global.numerosTelephone*/}</Text>
         );
     }
     
@@ -70,7 +57,7 @@ export default class PhoneNumber extends Component {
         />
         
         <TouchableOpacity onPress={this.updateInfo}>
-          <Text>Get Info</Text>
+          <Text>Get Info  </Text>
         </TouchableOpacity>
 
         {this.renderInfo()}

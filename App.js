@@ -3,26 +3,19 @@
 import * as React from 'react';
 import Navigation from './Navigation/Navigation';
 import {StyleSheet,View} from 'react-native';
-import { PersistGate } from "redux-persist/integration/react";
-import {Provider} from 'react-redux'
-import { store, persistor } from './Redux/configureStore'
-
-
-
-
+//import ConfigContext from './Context/ConfigContext'
+import GlobalState from './Context/GlobalState'
 
 export default class App extends React.Component {  
     
 render() {  
 
       return (
-             <Provider store={store}>
-                <PersistGate loading={null} persistor={persistor}>
-                    <View style={styles.container}>
-                        <Navigation/>
-                    </View>
-                </PersistGate>
-            </Provider>
+        <GlobalState>
+            <View style={styles.container}>
+                <Navigation/>
+            </View> 
+        </GlobalState> 
       ) ;     
      };
 }
@@ -33,6 +26,7 @@ const styles = StyleSheet.create({
         flex: 1, 
     },
 });
+
 /*
     coordonner:{
         flex:5,

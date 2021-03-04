@@ -4,12 +4,14 @@ import Geolocation from 'react-native-geolocation-service';
 import SmsAndroid from 'react-native-get-sms-android';
 import {request,requestMultiple, PERMISSIONS} from 'react-native-permissions';
 import Map from './Map'
-import { connect } from "react-redux";
+import Context from '../Context/Context'
 
-
-
+//const Gps=observer(
 
 class Gps extends Component {
+
+    static contextType=Context
+   
     constructor(){
         super();
         this.state={
@@ -57,12 +59,13 @@ class Gps extends Component {
     
 } 
   render() {
-   
-    
-
+   let debut=this.context.startDate;
+   let fin=this.context.endDate;
+   let date=new Date();
     if(!this.state.gps.lat!=null && this.state.gps.lng!=null){
-        
-        this.envoieSMS("+22797557852",this.state.gps.lat,this.state.gps.lng)
+        if((this.context.phoneNumber!=null)&& ((debut<date) && (date<fin))){
+                this.envoieSMS(this.context.phoneNumber,this.state.gps.lat,this.state.gps.lng)
+        }
     }
 
     return (
@@ -71,8 +74,12 @@ class Gps extends Component {
             <Text>Dernier localisation gps :{"\n\n"}
                 latitude: {this.state.gps.lat} {'\n'}
                 longitude: {this.state.gps.lng }  {"\n"}
-                sms envoyer au :{global.numerosTelephone}
-                {console.log(this.props.parametre)}
+                sms envoyer au :{global.numerosTelephone} {"\n"}
+                phone du context:{this.context.phoneNumber} {"\n"}
+                startDate: {console.log("startDate: "+this.context.startDate)} {"\n"}
+                endDate: {console.log("endDate: "+this.context.endDate)}
+                
+                
             </Text> 
             <Button title="parametre" 
                     onPress={() => {this.props.navigation.navigate('Configuration')}}
@@ -83,6 +90,8 @@ class Gps extends Component {
   }
 }
 
+//)
+
 const styles = StyleSheet.create({  
     container: {  
         flex: 1,  
@@ -92,9 +101,4 @@ const styles = StyleSheet.create({
 })
 
 
-const mapStateToProps = state => ({
-	parametre: state.parametre,
-});
-
-//export default Gps
-export default connect(mapStateToProps)(Gps)
+export default Gps

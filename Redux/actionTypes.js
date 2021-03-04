@@ -1,6 +1,0 @@
-
-export  const NEW_PHONE_NUMBER='NEW_PHONE_NUMBER';
-
-export const NEW_STARTDATE='NEW_STARTDATE';
-
-export const NEW_END_DATE='NEW_END_DATE';

@@ -1,4 +1,4 @@
-#Thu Feb 04 14:57:06 CET 2021
+#Tue Mar 02 18:00:42 CET 2021
 base.2=/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes3.dex
 path.2=classes3.dex
 base.1=/home/spyderniger/DepotLocaleGithub/TrackerClient/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
