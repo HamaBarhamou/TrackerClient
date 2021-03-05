@@ -11,10 +11,6 @@ export default class Configuration extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button
-        title="activé"
-        //disabled="true"
-        />
         <PhoneNumber/>
         <Calendar title="Start of the date and time of sms sending" date={this.context.startDate} periodeDate={STARTDATE} />
         <Calendar title="End of sms sending date and time" date={this.context.endDate} periodeDate={ENDDATE}/>

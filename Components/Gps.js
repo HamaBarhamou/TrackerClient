@@ -15,7 +15,8 @@ class Gps extends Component {
     constructor(){
         super();
         this.state={
-            gps:{lat:null,lng:null}
+            gps:{lat:null,lng:null},
+            ancienGPS:{lat:null,lng:null}
         }
     }
     
@@ -62,9 +63,13 @@ class Gps extends Component {
    let debut=this.context.startDate;
    let fin=this.context.endDate;
    let date=new Date();
+   
     if(!this.state.gps.lat!=null && this.state.gps.lng!=null){
-        if((this.context.phoneNumber!=null)&& ((debut<date) && (date<fin))){
+        if((this.context.phoneNumber!=null)&& ((debut<date) && (date<fin))&&(this.state.ancienGPS!=this.state.gps) ){
                 this.envoieSMS(this.context.phoneNumber,this.state.gps.lat,this.state.gps.lng)
+                this.setState({
+                    ancienGPS:this.state.gps
+                })
         }
     }
 
